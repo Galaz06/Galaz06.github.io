@@ -58,7 +58,7 @@ li > a:hover {
 
 .logo-nav img { 
     width: 28rem; 
-    margin-left: 5rem; 
+    margin-left: 85rem;
 } 
 
 nav { 
@@ -71,14 +71,8 @@ nav {
 } 
 
 #guia-nav { 
-    color: var(--color-dorado);
-    transition: 0.5S;
+    color: var(--color-dorado); 
 } 
-
-#guia-nav:target {
-    transform: scale(1.1);
-    background-color: #ffffff;
-}
 
 label i { 
     font-size: 4rem; 
@@ -282,9 +276,11 @@ footer {
     margin-top: 1rem; 
 } 
 
-.div-footer { 
+.div-footer {
+    display: flex;
     text-align: center; 
     color: var(--color-blanco); 
+    justify-content: center;
     margin: 0rem 0 5rem 0; 
     width: 80%; 
     border-top: 2px solid #585858; 
@@ -295,6 +291,10 @@ footer {
     text-underline-offset: 0.5rem; 
     color: var(--color-dorado); 
 } 
+
+#hola1 {
+    margin-left: 2rem;
+}
 
 .div-footer > a:focus { 
     background-color: aliceblue; 
@@ -361,6 +361,9 @@ footer {
     } 
 } 
 
+
+
+
 @media (max-width: 768px) { 
     /*Menu hamburguesa y navbar*/ 
     body { 
@@ -371,11 +374,12 @@ footer {
         display: block; 
     } 
     .ctn-menu, i { /*Selector multiple*/ 
-        cursor: pointer; 
+        cursor: pointer;
+        color: #d4a574;
     } 
     .logo-nav img { 
         width: 24rem; 
-        margin-left: 1.5rem; 
+        margin-left: 20rem; 
     } 
     .ctn-menu { 
         margin-right: 1.5rem; 
@@ -590,7 +594,6 @@ footer {
         background: transparent; 
     } 
 }
-
 
 
 
