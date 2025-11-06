@@ -71,8 +71,14 @@ nav {
 } 
 
 #guia-nav { 
-    color: var(--color-dorado); 
+    color: var(--color-dorado);
+    transition: 0.5S;
 } 
+
+#guia-nav:target {
+    transform: scale(1.1);
+    background-color: #ffffff;
+}
 
 label i { 
     font-size: 4rem; 
@@ -584,6 +590,7 @@ footer {
         background: transparent; 
     } 
 }
+
 
 
 
