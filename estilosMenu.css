@@ -288,11 +288,7 @@ footer {
     text-decoration: underline 0.2rem; 
     text-underline-offset: 0.5rem; 
     color: var(--color-dorado); 
-} 
-
-.div-footer > a:focus { 
-    background-color: aliceblue; 
-} 
+}  
 
 @media (min-width: 768px) and (max-width: 1920px) { 
     .ctn-cosas:hover{ 
@@ -584,6 +580,7 @@ footer {
         background: transparent; 
     } 
 }
+
 
 
 
