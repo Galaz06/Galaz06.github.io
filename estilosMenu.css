@@ -58,7 +58,7 @@ li > a:hover {
 
 .logo-nav img { 
     width: 28rem; 
-    margin-left: 85rem;
+    margin-left: 5rem; 
 } 
 
 nav { 
@@ -276,11 +276,9 @@ footer {
     margin-top: 1rem; 
 } 
 
-.div-footer {
-    display: flex;
+.div-footer { 
     text-align: center; 
     color: var(--color-blanco); 
-    justify-content: center;
     margin: 0rem 0 5rem 0; 
     width: 80%; 
     border-top: 2px solid #585858; 
@@ -291,10 +289,6 @@ footer {
     text-underline-offset: 0.5rem; 
     color: var(--color-dorado); 
 } 
-
-#hola1 {
-    margin-left: 2rem;
-}
 
 .div-footer > a:focus { 
     background-color: aliceblue; 
@@ -361,9 +355,6 @@ footer {
     } 
 } 
 
-
-
-
 @media (max-width: 768px) { 
     /*Menu hamburguesa y navbar*/ 
     body { 
@@ -374,12 +365,11 @@ footer {
         display: block; 
     } 
     .ctn-menu, i { /*Selector multiple*/ 
-        cursor: pointer;
-        color: #d4a574;
+        cursor: pointer; 
     } 
     .logo-nav img { 
         width: 24rem; 
-        margin-left: 20rem; 
+        margin-left: 1.5rem; 
     } 
     .ctn-menu { 
         margin-right: 1.5rem; 
