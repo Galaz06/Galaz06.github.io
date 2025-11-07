@@ -19,7 +19,6 @@ html {
 
 body { 
     font-family: 'Cinzel', serif; 
-    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%); 
 } 
 
 /*#d4a574*/ 
@@ -61,8 +60,10 @@ li > a:hover {
     margin-left: 5rem; 
 } 
 
-nav { 
-    position: relative; 
+nav {
+    background-color: var(--color-negro);
+    position: relative;
+    position: fixed;
     width: 100%; 
     display: flex; 
     align-items: center; 
@@ -91,6 +92,10 @@ nav input {
 .ctn-info { 
     position: relative; 
     background-image: url(imagenes/fondo-normal.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     height: calc(100vh - var(--altura-header)); 
     display: flex; 
     flex-direction: column; 
@@ -270,6 +275,8 @@ footer {
     color: var(--color-dorado);
 }
 
+
+
 .div-footer  {
     border-top: 2px solid #585858;
     display: flex;
@@ -367,6 +374,9 @@ footer {
         background-position: left; 
         background-position: -33.8rem; 
     } 
+    nav {
+        top: 0;
+    }
     .ctn-menu { 
         display: block; 
     } 
@@ -388,18 +398,18 @@ footer {
         justify-content: center; 
         position: absolute; 
         width: 100%; 
-        top: 7.2rem; 
+        top: 67px; 
         gap: 10rem; 
         /* height: 91vh; */ 
         height: 0; 
         overflow: hidden; 
-        transition: all 0.3s; 
+        transition: all 0.3s;
     } 
     li > a { 
         font-size: 5rem; 
     } 
     #menu-hamburguesa:checked + .ctn-links { 
-        height: 91vh; 
+        height: 100vh; 
     } 
     /*Main*/ 
     .subctn-texto { 
