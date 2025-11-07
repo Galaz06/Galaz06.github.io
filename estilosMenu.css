@@ -499,7 +499,7 @@ footer {
         font-size: 3.6rem; 
     }
     li {
-        transform: translateY(-6rem);
+        transform: translateY(-4.5rem);
     }
 } 
 
@@ -607,4 +607,5 @@ footer {
         background: transparent; 
     } 
 }
+
 
